@@ -1,0 +1,42 @@
+# ===================================================================
+# Python Virtual Environments
+# ===================================================================
+# This is the MOST IMPORTANT one. Never commit your virtual environment.
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ===================================================================
+# Python Cache Files
+# ===================================================================
+# These are generated automatically by Python and don't need to be tracked.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===================================================================
+# IDE and Editor Directories
+# ===================================================================
+# User-specific settings for VS Code, PyCharm, etc.
+.vscode/
+.idea/
+
+# ===================================================================
+# Datasets (if they are large)
+# ===================================================================
+# In my current project, the data is loaded from a library, so this
+# is not strictly necessary. But it's a critical best practice.
+# If I had a 'data/' folder with large CSVs, I would add it here.
+# data/
+
+# ===================================================================
+# Output Files
+# ===================================================================
+# Any files your script generates, like saved plots, models, or logs.
+*.png
+*.jpg
+*.log
+*.h5

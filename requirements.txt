@@ -1,0 +1,12 @@
+# Core ML Libraries
+tensorflow
+scikit-learn
+scikeras
+
+# EDA and Plotting Libraries
+pandas
+matplotlib
+seaborn
+
+# NumPy is a dependency of the above, but good to list explicitly
+numpy
