@@ -69,7 +69,7 @@ print(df['target'].value_counts())
 # --- Step 4: Visualize Feature Distributions with Histograms ---
 print("\n[EDA] 4. Plotting feature distributions (histograms)...")
 plt.figure(figsize=(20, 15))
-df.hist(bins=20, figsize=(20, 15), layout=(6, 5))
+df.hist(bins=20, figsize=(20, 15), layout=(7, 5))
 plt.suptitle("Histograms of All Features")
 plt.tight_layout(rect=[0, 0, 1, 0.96]) # Adjust layout to make room for suptitle
 plt.show()
