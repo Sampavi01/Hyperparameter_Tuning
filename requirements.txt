@@ -7,6 +7,9 @@ scikeras
 pandas
 matplotlib
 seaborn
+plotly
 
 # NumPy is a dependency of the above, but good to list explicitly
 numpy
+
+optuna
